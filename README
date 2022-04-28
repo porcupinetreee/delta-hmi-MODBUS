@@ -1,0 +1,1 @@
+An arduino mega is used to communicate with Delta HMI. Communication is established using an RS485 cable connected to the port. Data is converted to TTL using MAX485 integrated circuit card. Arduino is slave and HMI is master in this configuration. I dont own the libraries used in this code. There are tons of them on the web, just searched and picked one that works for me.
